@@ -1,6 +1,12 @@
 
 # Required packages:
 # pip install aiohttp watchdog
+# Usage:
+# python server.py
+#   Starts a live-reload web server serving the current directory at http://127.0.0.1:8000
+#
+# python server.py --host 0.0.0.0 --port 8000
+#   S
 import os
 import asyncio
 import argparse
