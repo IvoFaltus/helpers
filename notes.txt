@@ -1,1 +1,3 @@
 npm create vite@latest my-app 
+
+sudo tail -f /var/log/nginx/access.log //live log
